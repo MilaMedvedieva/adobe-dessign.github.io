@@ -1,0 +1,7 @@
+footer{
+  height: 3.125rem;
+  width: 100%;
+  @include media(lg){
+    height: 12.5rem;
+  }
+}

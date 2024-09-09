@@ -1,0 +1,26 @@
+//font-size
+$f-default: 1rem;
+
+// fonts
+$f_abel_r: 'Abel-Regular';
+$f_gotham_m: 'GothamPro-Medium';
+$f_gotham_b: 'GothamPro-Bold';
+$f_gotham_r: 'GothamPro-Regular';
+
+// color
+$c-white: #ffffff;
+$c-black100: #171422;
+$c-red100: #9e0b37;
+
+// border radius
+$b-radius-5: 0.313rem;
+$b-radius-10: 0.625rem;
+$b-radius-12: 0.75rem;
+$b-radius-14: 0.875rem;
+$b-radius-30: 1.875rem;
+$b-radius-40: 2.5rem;
+
+
+//gradient
+$gradient: linear-gradient(132deg, #9e0b37 0%, #ffc531 71.98%, #9e0b37 100%);
+$gradient2: linear-gradient(140deg, #df5017 0%, rgba(223, 80, 23, 0.44) 36.56%, rgba(223, 80, 23, 0.19) 64.02%, rgba(223, 80, 23, 0) 100%), linear-gradient(90deg, #282533 0%, #282533 0.01%, rgba(40, 37, 51, 0.74) 48.96%, rgba(40, 37, 51, 0) 100%);

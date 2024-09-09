@@ -1,0 +1,21 @@
+.btn{
+  font-weight: 500;
+  font-size: $f-default;
+  color: #fff;
+  border-radius: $b-radius-40;
+  padding: 0.5rem 1.125rem;
+  font-family: $f_gotham_m;
+  transition: all .1s ease-in-out;
+  @include media(md){
+    padding: 0.875rem 1.75rem;
+  }
+  &--primary{
+    box-shadow: inset 4px 4px 6px 0 rgba(255, 255, 255, 0.5), 4px 4px 20px 0 rgba(223, 80, 23, 0.8);
+    background: rgba(158, 11, 55, 0.7);
+    &:hover{
+      background: rgba(23, 20, 34);
+    }
+  }
+}
+
+

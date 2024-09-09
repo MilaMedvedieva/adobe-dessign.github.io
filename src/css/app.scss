@@ -1,0 +1,17 @@
+@import 'config/variables',
+        'config/mixins',
+        'config/global';
+
+@import 'base/buttons',
+        'base/animation';
+
+@import 'layout/header',
+        'layout/footer',
+
+        //blocks
+        'layout/hero',
+        'layout/information',
+        'layout/slider'
+
+
+;

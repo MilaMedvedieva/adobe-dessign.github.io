@@ -1,0 +1,32 @@
+/*Abel*/
+@font-face {
+    font-family: 'Abel-Regular';
+    src: url('Abel/Abel-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+/*GothamPro*/
+@font-face {
+    font-family: 'GothamPro-Regular';
+    src: url('GothamPro/gothampro.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GothamPro-Bold';
+    src: url('GothamPro/gothampro_bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GothamPro-Medium';
+    src: url('GothamPro/gothampro_medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

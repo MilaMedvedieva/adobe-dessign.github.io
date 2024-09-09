@@ -1,0 +1,19 @@
+$media-types: (
+        sm: '(min-width: 640px)',
+        md: '(min-width: 768px)',
+        lg: '(min-width: 1024px)',
+        xl: '(min-width: 1280px)',
+        hd: '(min-width: 1366px)',
+        2xl: '(min-width: 1441px)',
+);
+@mixin media($media) {
+  @media #{map-get($media-types, $media)} {
+    @content;
+  }
+}
+@mixin flex($direction: row, $items: center, $content: center) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $items;
+  justify-content: $content;
+}

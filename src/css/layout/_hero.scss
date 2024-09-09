@@ -1,0 +1,59 @@
+.hero{
+  position: relative;
+  &:after,&:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+  &:before{
+    width: 68%;
+    background-image: linear-gradient(90deg, #282533 0%, #282533 0.01%, rgba(40, 37, 51, 0.9) 68.96%, rgba(40, 37, 51, 0) 100%);
+  }
+  &:after{
+    width: 100%;
+    background: linear-gradient(335deg, #282533 0%, #282533 0.01%, rgba(40, 37, 51, 0.74) 48.96%, rgba(40, 37, 51, 0) 100%), linear-gradient(140deg, #df5017 0%, rgba(223, 80, 23, 0.44) 36.56%, rgba(223, 80, 23, 0.19) 64.02%, rgba(223, 80, 23, 0) 100%);
+    @include media(2xl){
+      width: 45%;
+    }
+  }
+  &__content{
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+    z-index: 3;
+    @include media(md){
+      min-height: 360px;
+    }
+    @include media(lg){
+      max-width: 80%;
+    }
+    @include media(xl){
+      min-height: calc(548px - 80px);
+    }
+    @include media(2xl){
+      min-height: calc(648px - 80px);
+    }
+  }
+  &__image{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    @include media(lg){
+      left: 45%;
+    }
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

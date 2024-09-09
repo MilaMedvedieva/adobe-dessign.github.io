@@ -1,0 +1,54 @@
+//container
+.container{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 1.563rem;
+  @include media(sm){
+    max-width: 640px;
+  }
+  @include media(md){
+    max-width: 768px;
+  }
+  @include media(lg){
+    max-width: 1024px;
+  }
+  @include media(xl){
+    max-width: 1280px;
+  }
+  @include media(hd){
+    max-width: 1366px;
+  }
+  @include media(2xl){
+    max-width: 1420px;
+  }
+}
+//General Styles
+body{
+  line-height: 1.25;
+  min-width: 320px;
+  position: relative;
+  overflow-x: hidden;
+  color: $c-white;
+  background-color: $c-black100;
+  font-weight: 400;
+  font-family: $f_gotham_r;
+}
+
+.hidden{
+  overflow: hidden;
+}
+
+h1,h2,h3,h4,h5{
+  font-weight: 500;
+  font-family: $f_gotham_m;
+  color: $c-white;
+}
+
+h1{
+  font-size: 2.125rem;
+  text-transform: uppercase;
+  @include media(xl){
+    font-size: 3.125rem;
+  }
+}
